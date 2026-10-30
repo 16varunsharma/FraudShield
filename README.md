@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # FraudShield# FraudShield: fraud detection with an AI analyst assistant
 
 **[Live demo](https://16varunsharma-fraudshield-appstreamlit-app-t72dqc.streamlit.app/)** (Streamlit; the free app may take about a minute to wake up)
