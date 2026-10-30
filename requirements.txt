@@ -1,0 +1,16 @@
+numpy
+pandas
+scikit-learn
+xgboost
+shap
+mlflow
+joblib
+fastapi
+uvicorn
+httpx
+streamlit
+faiss-cpu
+pytest
+matplotlib
+# Optional (better embeddings for RAG): sentence-transformers
+# Optional (local LLM for explanations): install Ollama separately and `ollama pull llama3.2`
