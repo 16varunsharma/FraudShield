@@ -1,0 +1,10 @@
+data/
+mlruns/
+mlflow.db
+__pycache__/
+*.pyc
+.git/
+.github/
+.pytest_cache/
+tests/
+app/
