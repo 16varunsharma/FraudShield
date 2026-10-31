@@ -60,6 +60,12 @@ pytest -q                                 # API tests (use synthetic data in CI)
 uvicorn src.api:app --reload              # API docs at http://localhost:8000/docs
 streamlit run app/streamlit_app.py        # UI
 ```
+## Run with Docker
+```
+   docker build -t fraudshield .
+   docker run -p 8000:8000 fraudshield
+   # then open http://localhost:8000/docs
+```
 
 Optional: `pip install sentence-transformers` for embedding search, and run [Ollama](https://ollama.com) with `llama3.2` for LLM-written explanations.
 `python -m src.train --synthetic` creates a model on synthetic data for smoke tests only; its metrics are not real results.
